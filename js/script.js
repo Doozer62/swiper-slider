@@ -6,6 +6,10 @@ new Swiper('.image-slider', {
 
     scrollbar: {
         el: '.swiper-scrollbar',
-        draggable: true
+    },
+
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
     },
 });

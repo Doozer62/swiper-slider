@@ -1,9 +1,93 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select,
+address {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    position: relative;
+}
+
+body {
+    font-size: 18px;
+    min-height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    color: #000;
+    background-color: #E5E5E5;
+}
+
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.slider-wrapper {
+    padding: 92px 0;
+}
+
 .swiper-container {
+    margin-top: 69px;
     overflow: hidden;
     text-align: center;
 }
 
 .slider-title {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 55px;
     text-align: center;
 }
 
