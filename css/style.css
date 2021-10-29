@@ -78,6 +78,24 @@ body {
     padding: 92px 0;
 }
 
+
+/*Пагинация*/
+
+.image-slider .swiper-pagination {}
+
+
+/* Буллеты */
+
+.swiper-pagination-bullet {}
+
+.image-slider .swiper-pagination-bullet {
+    height: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: #E5E5E5;
+}
+
 .swiper-container {
     margin-top: 69px;
     overflow: hidden;
@@ -90,6 +108,22 @@ body {
     line-height: 55px;
     text-align: center;
 }
+
+.swiper-pagination-bullet {
+    margin-left: 12px;
+    border-radius: 0;
+    width: 81px;
+    height: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+/* .swiper-pagination-bullet {
+    font-weight: 800;
+    opacity: 1;
+    color: #000;
+} */
 
 .list li {
     display: flex;
