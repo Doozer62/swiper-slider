@@ -297,12 +297,10 @@
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
     transform: scale(1);
-    
 }
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
     transform: scale(1);
-
 }
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
@@ -380,7 +378,7 @@ button.swiper-pagination-bullet {
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, -2px);
 }
 
 .swiper-horizontal>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
@@ -452,10 +450,10 @@ button.swiper-pagination-bullet {
 
 .swiper-horizontal>.swiper-scrollbar {
     position: absolute;
-    left: 32%;
+    left: 29%;
     z-index: 50;
     height: 5px;
-    width: 35%
+    width: 42%
 }
 
 .swiper-vertical>.swiper-scrollbar {

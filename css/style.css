@@ -125,21 +125,42 @@ body {
     color: #000;
 } */
 
-.list li {
-    display: flex;
-    justify-content: space-between;
-}
-
-.list {
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 45px;
-}
-
 .swiper-scrollbar-drag {
     top: -3px;
     height: 11px;
     border-radius: 50%;
     background-color: #FFD300;
     box-shadow: 0px 0px 8px 6px rgba(255, 213, 0, 0.644);
+}
+
+
+/* .list li {
+    padding: 5px 9px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #17181C;
+} */
+
+.prices__item {
+    font-family: 'Manrope';
+    background-color: #EBE9E9;
+    margin-top: 13px;
+    padding: 0px 27px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-prices {
+    padding-top: 33px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 45px;
+}
+
+.item__price {
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 45px;
 }
