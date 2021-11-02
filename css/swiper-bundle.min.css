@@ -265,7 +265,7 @@
 }
 
 .swiper-pagination {
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     transition: .3s opacity;
     transform: translate3d(0, 0, 0);
@@ -280,9 +280,11 @@
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-    top: 175px;
-    left: 0;
-    width: 100%
+    padding-bottom: 23px;
+    padding-left: 380px;
+    /* top: 229px;
+    left: 190px;
+    width: 100% */
 }
 
 .swiper-pagination-bullets-dynamic {
@@ -450,7 +452,7 @@ button.swiper-pagination-bullet {
 
 .swiper-horizontal>.swiper-scrollbar {
     position: absolute;
-    left: 29%;
+    left: 44%;
     z-index: 50;
     height: 5px;
     width: 42%
